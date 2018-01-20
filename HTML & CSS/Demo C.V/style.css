@@ -1,0 +1,73 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    background-image: url("img/background.jpg")
+    /* background-color: aliceblue; */
+}
+.container{
+    height: 100%;
+    padding: 30px;
+    position: relative;
+    z-index: -0.1;
+}
+.head{
+    text-align: center;
+}
+header{
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    padding: 2px;
+    margin: 9px;
+}
+.headertext{
+    padding: 02px;;
+    margin: 2px;
+}
+header > h1 {
+    font-size: 42px;
+}
+.heading{
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: rgb(243, 246, 247)
+}
+.objcontainer{
+    padding-left: 100px;
+    padding-right: 80px;
+}
+.listcontainer{
+    padding-left: 50px;
+    /* padding-right: 80px; */
+}
+ul{
+    list-style-type: circle;
+    text-indent: 10px;
+    font-size: 20px;
+}
+h2{
+    font-size: 28px;
+}
+section > h2{
+    text-indent: 30px;
+}
+/* section > div > p {
+    text-indent: 50px;
+} */
+.text{
+    /* margin: 0 auto 18px auto; */
+    text-indent: 100px;
+    padding: 0px;
+    margin: 0px;      
+}
+/* #text{
+    padding: 0%;
+    margin: 0%;
+} */
+p{
+    font-size: 20px;
+    margin: 5px;
+    padding: 3px;
+}

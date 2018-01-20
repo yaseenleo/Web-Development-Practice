@@ -1,0 +1,57 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure
+}
+h1{
+    text-align: center;
+}
+table{
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+.table-border{
+    border: 1px solid black;
+    border-radius: 05px;
+}
+
+.light-green{
+    background-color: rgb(43, 255, 96);
+}
+.seagreen{
+    background-color: rgb(93, 230, 153)
+}
+.golden-rod{
+    background-color: rgb(255, 213, 81);
+}
+
+.lightblue{
+    background-color: rgb(143, 229, 211);
+}
+.Eggplant{
+    background-color: rgb(255, 158, 1);
+}
+.skyblue {
+    background-color: rgb(106, 217, 255);
+}
+.smokewhite{
+    background-color: rgb(229, 228, 225)
+}
+.pink{
+    background-color: rgb(236, 199, 194);
+}
+.grey{
+    background-color: rgb(181, 182, 176);
+}
+.space{
+    margin: 10px;
+    padding: 10px;
+}
+td{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+/* tr :hover{
+    background-color: aquamarine;
+} */
