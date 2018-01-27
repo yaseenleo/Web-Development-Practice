@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Filter Images</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="Icon" href="img/image-icon.png" type="">
+</head>
+
+<body>
+    <div>
+        <figure>
+            <img class="img" src="Img/sasuke1.jpg" alt="sasuke">
+            <figcaption>
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="img" id="blur-me" src="Img/sasuke1.jpg" alt="sasuke">
+            <figcaption>
+                Applies a Gaussian blur to the input image. The value of ‘radius’ defines the value of the standard deviation to the Gaussian
+                function, or how many pixels on the screen blend into each other, so a larger value will create more blur.
+                If no parameter is provided, then a value 0 is used. The parameter is specified as a CSS length, but does
+                not accept percentage values.
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="img" id="do-more-thing" src="Img/sasuke1.jpg" alt="sasuke">
+            <figcaption>
+                Multiple filters are being used
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="img" id="grayscale" src="Img/sasuke1.jpg" alt="sasuke">
+            <figcaption>
+                Converts the input image to grayscale. The value of “amount” defines the proportion of the conversion. A value of 100% is
+                completely grayscale. A value of 0% leaves the input unchanged. Values between 0% and 100% are linear multipliers
+                on the effect. If the “amount” parameter is missing, a value of 100% is used. Negative values are not allowed.
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="img" id="sepia" src="Img/sasuke1.jpg" alt="sasuke">
+            <figcaption>
+                Converts the input image to sepia. The value of “amount” defines the proportion of the conversion. A value of 100% is completely
+                sepia. A value of 0 leaves the input unchanged. Values between 0% and 100% are linear multipliers on the
+                effect. If the “amount” parameter is missing, a value of 100% is used. Negative values are not allowed.
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="img" id="saturate" src="Img/sasuke1.jpg" alt="sasuke">
+            <figcaption>
+                Saturates the input image. The value of “amount” defines the proportion of the conversion. A value of 0% is completely un-saturated.
+                A value of 100% leaves the input unchanged. Other values are linear multipliers on the effect. Values of
+                amount over 100% are allowed, providing super-saturated results. If the “amount” parameter is missing, a
+                value of 100% is used. Negative values are not allowed.
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="img" id="hue-rotate" src="Img/sasuke1.jpg" alt="sasuke">
+            <figcaption>
+                Applies a hue rotation on the input image. The value of “angle” defines the number of degrees around the color circle the
+                input samples will be adjusted. A value of 0deg leaves the input unchanged. If the “angle” parameter is missing,
+                a value of 0deg is used. Maximum value is 360deg.
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="img" id="invert" src="Img/sasuke1.jpg" alt="sasuke">
+            <figcaption>
+                Inverts the samples in the input image. The value of “amount” defines the proportion of the conversion. A value of 100% is
+                completely inverted. A value of 0% leaves the input unchanged. Values between 0% and 100% are linear multipliers
+                on the effect. If the “amount” parameter is missing, a value of 100% is used. Negative values are not allowed.
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="img" id="opacity" src="Img/sasuke1.jpg" alt="sasuke">
+            <figcaption>
+                Applies transparency to the samples in the input image. The value of “amount” defines the proportion of the conversion. A
+                value of 0% is completely transparent. A value of 100% leaves the input unchanged. Values between 0% and
+                100% are linear multipliers on the effect. This is equivalent to multiplying the input image samples by amount.
+                If the “amount” parameter is missing, a value of 100% is used. This function is similar to the more established
+                opacity property; the difference is that with filters, some browsers provide hardware acceleration for better
+                performance. Negative values are not allowed.
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="img" id="brightness" src="Img/sasuke1.jpg" alt="sasuke">
+            <figcaption>
+                Applies a linear multiplier to input image, making it appear more or less bright. A value of 0% will create an image that
+                is completely black. A value of 100% leaves the input unchanged. Other values are linear multipliers on the
+                effect. Values of an amount over 100% are allowed, providing brighter results. If the "amount" parameter
+                is missing, a value of 100% is used.
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="img" id="contrast" src="Img/sasuke1.jpg" alt="sasuke">
+            <figcaption>
+                Adjusts the contrast of the input. A value of 0% will create an image that is completely black. A value of 100% leaves the
+                input unchanged. Values of amount over 100% are allowed, providing results with less contrast. If the “amount”
+                parameter is missing, a value of 100% is used.
+            </figcaption>
+        </figure>
+        <figure>
+            <img class="img" id="drop-shadow" src="Img/sasuke1.jpg" alt="sasuke">
+            <figcaption>
+                Applies a drop shadow effect to the input image. A drop shadow is effectively a blurred, offset version of the input image's
+                alpha mask drawn in a particular color, composited below the image. The function accepts a parameter of type
+                (defined in CSS3 Backgrounds), with the exception that the ‘inset’ keyword is not allowed. This function
+                is similar to the more established box-shadow property; the difference is that with filters, some browsers
+                provide hardware acceleration for better performance.
+            </figcaption>
+        </figure>
+    </div>
+</body>
+
+</html>

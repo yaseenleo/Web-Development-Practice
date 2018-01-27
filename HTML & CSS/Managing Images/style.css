@@ -1,0 +1,49 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img{
+    padding: 10px;
+    margin: 0 auto;
+    display: inline;
+    vertical-align: left;
+    width: 45%;
+    /* filter: grayscale(1); */
+}
+
+#blur-me {
+    filter: blur(03px);
+}
+#do-more-thing{
+    filter: blur(05px) grayscale(50)
+}
+#grayscale{
+    filter: grayscale(20);
+}
+#sepia{
+    filter: sepia(1);
+}
+#satuate{
+    filter: saturate(5);
+}
+#hue-rotate{
+    filter: hue-rotate(90deg);
+}
+#invert{
+    filter: invert(0.8);
+}
+#opacity{
+    filter: opacity(0.2)
+}
+#brightness{
+    filter: brightness(3)
+}
+#contrast{
+    filter: contrast(4)
+}
+#drop-shadow{
+    filter: drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+}
+#image-url{
+    filter: url("#sepia")
+}
