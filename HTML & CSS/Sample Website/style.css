@@ -76,28 +76,24 @@ ul > li:hover{
     transform: rotate(5deg) scale(1.5);
     transition: 2s;
 }
-/* .thumbnail{
-    position: relative;
-    display: inline;
-} */
 .thumbnail {
-    /* display: -moz-flex;
+    display: -moz-flex;
     display: -webkit-flex;
-    display: -ms-flex; */
+    display: -ms-flex;
     display: flex;
-    /* -moz-flex-direction: row;
+    -moz-flex-direction: row;
     -webkit-flex-direction: row;
-    -ms-flex-direction: row; */
+    -ms-flex-direction: row;
     flex-direction: row;
     position: relative;
     margin: 0 0 2em -2em;
 }
 
 .thumbnail a {
-    /* -moz-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
     -webkit-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease; */
-     /* transition: all 0.2s ease; */
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
     border-bottom: none;
     display: block;
     width: 100%;
