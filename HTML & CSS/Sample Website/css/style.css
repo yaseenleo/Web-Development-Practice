@@ -1,5 +1,5 @@
 body{
-    background-image: url("images/bg.jpg");
+    background-image: url("../images/bg.jpg");
 }
 /* Header */
 #header {
@@ -171,3 +171,46 @@ ul > li:hover{
     -ms-transition: opacity 1s ease, -ms-filter 1s ease;
     transition: opacity 1s ease, filter 1s ease;
 }
+/* Giving a button like view extra work */
+/* #button-container{
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+#button-container a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(129, 68, 88)
+} */
+
+/* Button */
+/* #button-container{
+    margin: 0 auto;
+    padding-left: 440px;
+    width: 100%;
+    height: 100%;
+}
+#button-container a button{
+    position: relative;
+    padding: 16px 70px 16px 70px;
+    border-radius: 4px;
+    display: inline;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.25);
+    font-size: 20px;
+    color: #8a707f
+}
+#button-container a{
+    text-decoration: none;
+}
+#button-container a button:hover{
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 #FF6382;
+} */
