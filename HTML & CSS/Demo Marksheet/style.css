@@ -1,0 +1,134 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    text-align: center;
+}
+
+.header h2{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    color: rgb(140, 199, 233);
+    margin: 0%;
+    padding: 0px;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.header h4 {
+    padding: 0px;
+    color: rgb(138, 184, 211);
+    margin: 0%;
+    padding: 01px;
+    font-size: 28px;
+}
+/* .header h4 {
+    padding: 0px;
+    color: hotpink;
+    margin: 0%;
+} */
+
+/* Text Container */
+.text-container, .left-container , .right-container{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    flex-direction: row;
+    -moz-box-flex-direction:row;
+    -ms-flex-direction: row;
+    -webkit-flex-direction:row;
+    position: relative;
+}
+.left-container{
+    width: 50%;
+}
+.right-container{
+    width: 50%;
+    padding-left: 600px;
+}
+.left-section-text1 span, .right-section-text1 span{
+    padding-left: 10px;
+}
+.left-section-text{
+    padding-left: 20px;
+}
+.right-section-text{
+    padding-left: 0%;
+}
+
+/* Table */
+
+#table1 , #table2{
+    border-collapse: collapse;
+    margin:05px;
+}
+table td{
+    border: 1px solid black;
+    padding: 05px;
+    border-radius: 2px;
+    text-align: center;
+}
+.no-border-table{
+    border: none;
+}
+.bold{
+    font-weight: bold;
+}
+.left-align{
+    text-align: left;
+}
+.right-align{
+    text-align: right;
+}
+#table-main-container{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    flex-direction: row;
+    -moz-box-flex-direction:row;
+    -ms-flex-direction: row;
+    -webkit-flex-direction:row;
+    position: relative;
+    margin: 50px;
+}
+.table-heading{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.cellspacing{
+    padding: 15px;
+}
+.cellspacing1{
+    padding: 07px;
+}
+.secCellSpacing{
+    padding: 20xp;
+}
+.cell1 , .cell6{
+    width: 300px;
+    height: 30px;
+}
+.cell2, .cell7{
+    width: 115px;
+    height: 30px;
+}
+.cell3 , .cell8{
+    width: 80px;
+    height: 30px;
+}
+.cell4, .cell9{
+    width: 70px;
+    height: 30px;
+}
+.cell5 , .cell10{
+    width: 80px;
+    height: 30px;
+}
