@@ -1,0 +1,51 @@
+body{
+    background: url(img/bg.jpg) no-repeat center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-section{
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 100px;
+}
+.modal-content{
+    background-color: #434e5a;
+    opacity: 0.8;
+    padding: 0 15px;
+    border-radius: 10px;
+}
+.user-img img{
+    width: 45%;
+    height: 45%;
+    margin-top: -57px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+.form-group input{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid;
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.form-text{
+    font-size: 10px;
+    color: rgb(110, 110, 187)
+}
+.form-group input{
+    font-family: "Font Awesome\ 5 Free";
+    content: "f06e"
+}
+.form-input button{
+    width: 40%;
+    margin: 5px 0px 25px
+}
+.forgot{
+    margin-bottom: 10px
+}
+.forgot::before{
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+    width: 20px;
+}
