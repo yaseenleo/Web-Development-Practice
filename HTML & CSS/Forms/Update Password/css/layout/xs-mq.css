@@ -1,0 +1,29 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .update-pass-screen {
+        width: 100%;
+        height: 620px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .update-pass-sec {
+        top: 0%;
+        transform: translate(-50%, 15%);
+        width: 100%;
+    }
+    .update-pass-card .heading .title{
+        font-size: 1.5em;
+        margin-top: 0.6em;
+    }
+}
+
+@media (max-width: 414px){
+}
+
+@media (max-width:349px) {
+}
+
+@media (max-width:320px) {
+   
+}

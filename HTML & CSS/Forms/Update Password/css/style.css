@@ -1,0 +1,225 @@
+.update-pass-screen{
+    background-image: url("../img/Background1920x1080.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.update-pass-sec{
+    position: absolute;
+	  top: 0%;
+	  left: 50%;
+    transform: translate(-50%, 40%);
+    width: 100%;
+}
+.update-pass-card{
+  border-radius: 18px !important;
+  box-shadow: -10px 15px 50px #bc97e0, 1px 4px 20px #7b6194;
+  backdrop-filter: blur(84rem);
+  background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3) );
+  z-index: 2;
+  opacity: 0.7;
+    position: relative;
+}
+
+.btn-submit {
+  background-color: #8224e0 !important;
+  color: white !important;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0.1s !important;
+}
+
+.btn-submit:hover,
+.btn-submit:active,
+.btn-submit:focus {
+  background: white !important;
+  color: #8224e0 !important;
+  border-color: #8224e0 !important;
+  box-shadow: 5px 15px 20px #8224e0b4;
+  transform: translateY(-7px);
+}
+
+  .update-pass-card .md-input {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    /* max-width: 280px; */
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .md-input .label {
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    transform-origin: 0 0;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.2s ease;
+    pointer-events: none;
+  }
+  .md-input .focus-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.05);
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  .md-input input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none;
+    width: 100%;
+    border: 0;
+    font-family: inherit;
+    padding: 16px 12px 0 12px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 400;
+    background: rgba(0, 0, 0, 0.02);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+    color: #000;
+    transition: all 0.15s ease;
+  }
+  .md-input input:hover {
+    background: rgba(0, 0, 0, 0.04);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.5);
+  }
+  .md-input input:not(:-moz-placeholder-shown) + .label {
+    color: rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+  }
+  .md-input input:not(:-ms-input-placeholder) + .label {
+    color: rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+  }
+  .md-input input:not(:placeholder-shown) + .label {
+    color: rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+  }
+  .md-input input:focus {
+    background: rgba(0, 0, 0, 0.05);
+    outline: none;
+    box-shadow: inset 0 -2px 0 #8341c3;
+  }
+  .md-input input:focus + .label {
+    color: #8341c3;
+    transform: translate3d(0, -12px, 0) scale(0.75);
+  }
+  .md-input input:focus + .label + .focus-bg {
+    transform: scaleX(1);
+    transition: all 0.1s ease;
+  }
+
+  @keyframes unlock-circle {
+    0% {
+        bottom: 200px;
+    }
+    25% {
+        bottom: 200px;
+    }
+    50% {
+        bottom: 150px;
+    }
+    75% {
+        bottom: 150px;
+    }
+    100% {
+        bottom: 200px;
+    }
+}
+
+@keyframes unlock-box {
+    0% {
+        bottom: 280px;
+    }
+    25% {
+        bottom: 280px;
+    }
+    50% {
+        bottom: 230px;
+    }
+    75% {
+        bottom: 230px;
+    }
+    100% {
+        bottom: 280px;
+    }
+}
+
+
+.update-pass-sec .wrapper {
+  transform: translate(20px, 50px);
+}
+
+.update-pass-sec .security-img {
+    position: relative;
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .security-img #shell{
+    animation: up 800ms infinite alternate;
+    animation-play-state: paused;
+  }
+  .security-img #shell, .security-img #lock{
+    animation-play-state: running;
+  }
+   #lock{
+    animation: shack 1100ms infinite alternate;
+    transform-origin: 336px 171px;
+    animation-play-state: paused;
+  }
+  @keyframes up{
+    from{
+      transform: translate3d(0,5px,0);
+    }
+    to{
+      transform: translate3d(0,-5px,0);
+    }
+  }
+  @keyframes shack{
+    from{
+      transform: translate3d(0,12px,0) rotate(-32deg);
+    }
+    to{
+      transform: translate3d(0,-12px,0) rotate(2deg);
+    }
+  }
+
+  .update-pass-card .key-icon{
+    width: 42px;
+    height: 42px;
+    animation: float 5s ease-in-out infinite;
+  }
+
+  
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-12px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
+.update-pass-card .icon-circle{
+  background-color: #8341c3;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: -2px 5px 10px gray;
+}

@@ -1,0 +1,19 @@
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .title{
+        font-size: 1.7em;
+    }
+    .security-img{
+        width: 250px;
+    }
+    .update-pass-sec {
+        top: 50% !important;
+        left: 50%;
+        transform: translate(-50%, 35%) !important;
+        width: 100%;
+    }
+    .update-pass-card .heading .title{
+        font-size: 1.5em;
+    }
+}
