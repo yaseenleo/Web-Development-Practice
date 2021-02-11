@@ -1,0 +1,19 @@
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .order-card .user-info-sec .user-info {
+        margin-left: 0px;
+        align-self: flex-end;
+        margin-bottom: 0.7em;
+    }
+    .order-card .order-status-sec .price-text {
+        font-family: var(--primaryFontBold);
+        font-size: 1.2em;
+    }
+    .order-card .order-status-btn-sec button{
+        font-size: 0.7em;
+    }
+    .order-card .order-status-sec .btn-sec button{
+        font-size: 0.7em;
+    }
+}

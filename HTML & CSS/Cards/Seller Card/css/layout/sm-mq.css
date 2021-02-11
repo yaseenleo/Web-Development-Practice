@@ -1,0 +1,14 @@
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+ .update-pass-sec {
+    top: 0% !important;
+    left: 50%;
+    transform: translate(-50%, 20%) !important;
+    width: 100%;
+}
+.update-pass-card .heading .title{
+    margin-top: 0.6em;
+}
+}
