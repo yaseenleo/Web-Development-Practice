@@ -1,0 +1,1 @@
+Apple Store,  Google PlayStore and Windows store download button.
